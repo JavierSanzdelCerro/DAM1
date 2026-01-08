@@ -11,20 +11,16 @@
     <div class="container py-4">
         <form action="">
             <div class="mb-3">
-                <label class="col-form-label col-2" for="nombre">Nombre</label>
-                <input class="col-form-control col" type="text" name="nombre" id="nombre">
+                <label class="form-label" for="formFile">Input File...</label>
+                <input class="form-control" type="file" name="file" id="formFile">
             </div>
-            <div>
-                <label class="col-form-label col" for="correo">Correo Electcrónico</label>
-                <input class="col-form-control; col" type="email" name="correo" id="correo">
+            <div class="mb-3">
+                <label class="form-label" for="formFile">Input File Mútiple...</label>
+                <input class="form-control" type="file" name="file" id="formFile" multiple>
             </div>
-            <div>
-                <label class="form-label" for="asunto">Asunto:</label>
-                <textarea class="form-control" name="asunto" id="asunto" cols="20" rows="7
-                "></textarea>
-            </div>
-            <div>
-                
+            <div class="mb-3">
+                <label class="form-label" for="formFile">Input File Mútiple...</label>
+                <input class="form-control" type="file" name="file" id="formFile" disabled>
             </div>
         </form>
     </div>
